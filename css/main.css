@@ -10,8 +10,12 @@
   margin: 48px 0;
 }
 
+.workWith {
+  color: #f2f2f2 !important;
+}
+
 .text-color {
-  color: #02adf0 !important;
+  color: #052653 !important;
 }
 
 .d-flex {
@@ -75,7 +79,7 @@ body {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #02adf0;
+  background: #f9a22f;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -97,7 +101,7 @@ body {
 }
 
 .back-to-top:hover {
-  background: #02adf0;
+  background: #052653;
 }
 
 .back-to-top.active {
@@ -126,7 +130,7 @@ body {
 .heading-primary {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #02adf0;
+  color: #052653;
   line-height: 1.2;
   font-size: clamp(3.2rem, 5vw, 5.6rem);
 }
@@ -225,9 +229,9 @@ body {
 
 .btn-nav a {
   padding: 12px 24px;
-  border: 1px solid #999cee38;
+  border: 1px solid #faa72f;
   border-radius: 8px;
-  color: #02adf0;
+  color: #faa72f;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -239,14 +243,14 @@ body {
 
 .btn-nav a:hover {
   border: 1px solid rgba(153, 156, 238, 0.62);
-  color: #02adf0;
+  color: #052653;
 }
 
 .btn-primary {
   padding: 12px 24px;
   color: #fff;
-  background-color: #02adf0;
-  border: 2px solid #02adf0;
+  background-color: #faa72f;
+  border: 2px solid #faa72f;
   border-radius: 8px;
 }
 
@@ -268,11 +272,11 @@ body {
 
 .btn-primary a:hover {
   background-color: transparent;
-  color: #02adf0;
+  color: #faa72f;
 }
 .btn-secondary {
   padding: 12px 24px;
-  color: #02adf0;
+  color: #faa72f;
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
   border-radius: 8px;
@@ -297,7 +301,7 @@ body {
 
 .btn-secondary:hover {
   background-color: transparent;
-  color: #02adf0;
+  color: #faa72f;
 }
 
 .btn-cta {
@@ -314,9 +318,9 @@ body {
 
 .btn-outline {
   padding: 12px 24px;
-  color: #02adf0;
+  color: #faa72f;
   background-color: transparent;
-  border: 1px solid #02adf0;
+  border: 1px solid #faa72f;
   border-radius: 8px;
 }
 
@@ -329,12 +333,12 @@ body {
 
 .btn-outline:hover {
   color: #fff;
-  background-color: #02adf0;
+  background-color: #faa72f;
 }
 
 .btn-text {
   font-size: 16px;
-  color: #02adf0;
+  color: #faa72f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,7 +426,7 @@ nav .logo {
 
 nav .logo-text {
   position: relative;
-  color: #02adf0;
+  color: #faa72f;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -455,7 +459,7 @@ nav li:nth-of-type(1) {
 
 .nav-links {
   font-size: 1.6rem;
-  color: #02adf0;
+  color: #faa72f;
   font-family: "Poppins", sans-serif;
 }
 
@@ -499,7 +503,7 @@ nav li:nth-of-type(1) {
     -ms-flex-align: start;
     align-items: flex-start;
     width: 100%;
-    border-bottom: 2px solid #02adf0;
+    border-bottom: 2px solid #052653;
     background: #fff;
     -webkit-transition: all 0.35s linear;
     transition: all 0.35s linear;
@@ -544,7 +548,7 @@ nav li:nth-of-type(1) {
     top: 50%;
     width: 25px;
     height: 2px;
-    background-color: #02adf0;
+    background-color: #f9a22f;
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
   }
@@ -655,7 +659,7 @@ nav li:nth-of-type(1) {
 }
 
 .footer_icons .fa {
-  color: #02adf0;
+  color: #faa72f;
   font-weight: normal;
   font-size: 24px;
   -webkit-transition: all 0.15s ease-in;
@@ -815,6 +819,10 @@ nav li:nth-of-type(1) {
   object-fit: cover;
 }
 
+.heroSpanText {
+  text-decoration: solid;
+}
+
 .brands {
   position: relative;
   padding: 48px 0;
@@ -901,8 +909,15 @@ nav li:nth-of-type(1) {
   -ms-flex-align: start;
   align-items: flex-start;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 48px;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .service-cards,
+  .whychooseus {
+    flex-wrap: wrap;
+  }
 }
 
 .service-card {
@@ -1067,7 +1082,7 @@ nav li:nth-of-type(1) {
 .testimonial {
   width: 100%;
   padding: 32px 0;
-  background-color: #02adf03d;
+  background-color: #052653;
 }
 
 .testimonial-container {
@@ -1152,7 +1167,7 @@ nav li:nth-of-type(1) {
   width: 80%;
   margin: 0 auto;
   padding: 48px 0;
-  background-color: #cecff5;
+  background-color: #052653;
   -webkit-box-shadow: 0px 40px 92px -16px rgba(153, 156, 238, 0.22);
   box-shadow: 0px 40px 92px -16px rgba(153, 156, 238, 0.22);
   background: url(../img/bg.png) no-repeat center center/cover;
@@ -1308,95 +1323,4 @@ nav li:nth-of-type(1) {
   }
 }
 
-.pricing_card {
-  position: relative;
-  border-radius: 8px;
-  padding: 24px;
-  padding-top: 32px;
-  width: 320px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 8px;
-  border: 1px solid rgba(238, 238, 238, 0.622);
-  -webkit-transition: all 0.15s ease-in;
-  transition: all 0.15s ease-in;
-  overflow: hidden;
-}
-
-.pricing_card:nth-of-type(2) {
-  border: 1px solid rgba(153, 156, 238, 0.622);
-  -webkit-transform: translateY(0) scale(1.05);
-  transform: translateY(0) scale(1.05);
-}
-
-.pricing_card:hover {
-  -webkit-transform: translateY(-4px) scale(1.05);
-  transform: translateY(-4px) scale(1.05);
-  border: 1px solid rgba(153, 156, 238, 0.622);
-}
-
-.pricing_card__divider {
-  margin: 16px 0;
-  background-color: rgba(18, 17, 39, 0.12);
-  opacity: 0.3;
-  height: 1px;
-  width: 100%;
-}
-
-.pricing_card__heading {
-  padding-bottom: 12px;
-}
-
-.pricing_card__heading span {
-  font-size: 14px;
-  font-weight: 400;
-  color: #707070;
-}
-
-.pricing_card__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 24px;
-}
-
-.pricing_card__list li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 16px;
-}
-
-.pricing_card__list li img {
-  width: 24px;
-}
-
-.pricing_card .btn {
-  font-size: 16px;
-  width: 100%;
-  text-align: center;
-  padding: 8px 0;
-}
 /*# sourceMappingURL=main.css.map */
